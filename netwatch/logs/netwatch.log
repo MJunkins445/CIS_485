@@ -1,0 +1,43 @@
+2026-02-16 11:05:11  INFO      netwatch  —  ============================================================
+2026-02-16 11:05:11  INFO      netwatch  —  NetWatch starting
+2026-02-16 11:05:11  INFO      netwatch  —  ============================================================
+2026-02-16 11:05:13  DEBUG     netwatch.main_window  —  Navigated to view index 0
+2026-02-16 11:05:13  INFO      netwatch.main_window  —  MainWindow initialized
+2026-02-16 11:05:13  INFO      netwatch  —  MainWindow displayed — entering event loop
+2026-02-16 11:05:19  DEBUG     netwatch.main_window  —  Navigated to view index 1
+2026-02-16 11:05:19  INFO      netwatch.scanner  —  nmap PortScanner initialized successfully
+2026-02-16 11:05:19  INFO      netwatch.scanner  —  Starting scan on 127.0.0.1 | args: -sV -T3 --open -p 1-10000
+2026-02-16 11:05:52  DEBUG     netwatch.main_window  —  Navigated to view index 2
+2026-02-16 11:05:55  INFO      netwatch.firewall  —  Starting firewall analysis
+2026-02-16 11:05:57  INFO      netwatch.firewall  —  Retrieved 1069 firewall rules
+2026-02-16 11:05:57  INFO      netwatch.firewall  —  Firewall analysis done. 805 issue(s) from 1069 rule(s).
+2026-02-16 11:06:14  DEBUG     netwatch.main_window  —  Navigated to view index 3
+2026-02-16 11:06:18  DEBUG     netwatch.main_window  —  Navigated to view index 0
+2026-02-16 11:06:18  DEBUG     netwatch.main_window  —  Navigated to view index 1
+2026-02-16 11:06:20  DEBUG     netwatch.main_window  —  Navigated to view index 4
+2026-02-16 11:06:26  DEBUG     netwatch.main_window  —  Navigated to view index 0
+2026-02-16 11:06:26  DEBUG     netwatch.main_window  —  Navigated to view index 0
+2026-02-16 11:06:31  DEBUG     netwatch.main_window  —  Navigated to view index 1
+2026-02-16 11:06:32  DEBUG     netwatch.main_window  —  Navigated to view index 0
+2026-02-16 11:06:33  DEBUG     netwatch.main_window  —  Navigated to view index 1
+2026-02-16 11:08:05  INFO      netwatch.scanner  —  Scan complete. 7 open port(s) found.
+2026-02-16 11:08:05  INFO      netwatch.scanner  —  Initial baseline saved.
+2026-02-16 11:08:05  INFO      netwatch.firewall  —  Starting firewall analysis
+2026-02-16 11:08:07  INFO      netwatch.firewall  —  Retrieved 1069 firewall rules
+2026-02-16 11:08:07  INFO      netwatch.firewall  —  Firewall analysis done. 805 issue(s) from 1069 rule(s).
+2026-02-16 11:08:07  INFO      netwatch.risk_engine  —  Risk score: 100%  (raw=6474)
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +20 critical port 445
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +15 risky port 3306
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +7 firewall Medium: Remote Event Log Management (N
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +10 firewall High: Network Discovery for Teredo (
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +7 firewall Medium: Network Discovery (WSD-In)
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-02-16 11:08:07  DEBUG     netwatch.risk_engine  —    ... and 797 more
+2026-02-16 11:08:07  DEBUG     netwatch.anomaly_detector  —  IsolationForest prediction=1, score=-0.3526
+2026-02-16 11:08:07  INFO      netwatch.anomaly_detector  —  Baseline updated.
+2026-02-16 11:08:07  INFO      netwatch.dashboard  —  Updating dashboard statistics
+2026-02-16 11:08:07  INFO      netwatch.attack_graph  —  Attack graph: 15 nodes, 14 edges
